@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="chromeTest">
+  <paramater name="sBrowser" value ="chrome"/>
+  <classes>
+      <class name="com.tcs.HomePageTest"/>
+    </classes>
+     </test> <!-- Test -->
+    <test name="firefoxTest">
+  <paramater name="sBrowser" value ="firefox"/>
+  <classes>
+      <class name="com.tcs.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
